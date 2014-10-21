@@ -1,0 +1,29 @@
+{
+  "name": "angular-state",
+  "version": "0.0.1",
+  "description": "A template for angular express applications.",
+  "main": "./src/bin/www",
+  "scripts": {
+    "start": "node ./src/bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Eckert (stevene@quadrus.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "wiredep": "^1.8.5"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "express": "~4.9.0",
+    "fast-csv": "^0.5.2",
+    "jade": "~1.6.0",
+    "lodash": "^2.4.1",
+    "morgan": "~1.3.0",
+    "postal": "^0.10.3",
+    "serve-favicon": "~2.1.3",
+    "socket.io": "^1.1.0"
+  }
+}

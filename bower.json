@@ -1,0 +1,21 @@
+{
+  "name": "angular-state",
+  "version": "0.0.1",
+  "authors": [
+    "Steven Eckert <stevene@quadrus.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.26",
+    "angular-resource": "~1.2.26",
+    "angular-socket-io": "~0.6.0",
+    "lodash": "~2.4.1"
+  }
+}
